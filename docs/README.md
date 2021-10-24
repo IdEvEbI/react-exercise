@@ -14,3 +14,4 @@ npx create-react-app [project-name]
 ## React 练习
 
 - [练习 001：创建元素](./e-001-create-element.md)
+- [练习 002：JSX](./e-002-jsx.md)
