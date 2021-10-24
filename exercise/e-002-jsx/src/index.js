@@ -1,12 +1,13 @@
-import React from 'react'
 import ReactDOM from 'react-dom'
 
-const nav = <ul className='nav'>
-  <li>手机</li>
-  <li>笔记本</li>
-  <li>电视</li>
-</ul>
+const element = (
+  <>
+    <h1>JSX 注意事项</h1>
+    <ul>
+      <li>JSX 需要一个根节点</li>
+    </ul>
+    <hr></hr>
+  </>
+)
 
-debugger
-
-ReactDOM.render(nav, document.getElementById('root'))
+ReactDOM.render(element, document.getElementById('root'))
